@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SeleniumTestFramwork]">
+  <listeners>
+    <listener class-name="com.SeleniumTestFramwork.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="BankingApp Test(failed)">
+    <parameter name="getBrowser" value="chrome"/>
+    <classes>
+      <class name="com.SeleniumTestFramwork.testCases.TC3_AddCustomer">
+        <methods>
+          <include name="fn_AddCustomerDetails" invocation-numbers="0"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.SeleniumTestFramwork.testCases.TC3_AddCustomer -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [SeleniumTestFramwork] -->

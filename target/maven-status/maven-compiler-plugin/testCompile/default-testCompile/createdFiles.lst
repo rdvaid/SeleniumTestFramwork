@@ -1,0 +1,9 @@
+com\SeleniumTestFramwork\utilities\ConfigRead.class
+com\SelenimTestFramwork\pageObjects\AddCustomerInfo.class
+com\SelenimTestFramwork\pageObjects\Loginpage.class
+com\SeleniumTestFramwork\testCases\BaseClass.class
+com\SeleniumTestFramwork\testCases\TC2_LoginDD.class
+com\SeleniumTestFramwork\utilities\Reporting.class
+com\SeleniumTestFramwork\testCases\TC1_Logintest.class
+com\SeleniumTestFramwork\utilities\XLUtils.class
+com\SeleniumTestFramwork\testCases\TC3_AddCustomer.class

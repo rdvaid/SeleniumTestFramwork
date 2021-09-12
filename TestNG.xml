@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-7.4.dtd" >
+
+<suite name="SeleniumTestFramwork">
+ 
+	<listeners>
+		<listener class-name="com.SeleniumTestFramwork.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="BankingApp Test">
+		<parameter name="getBrowser" value="chrome" />
+		<classes>
+		<!-- <class name="com.SeleniumTestFramwork.testCases.TC1_Logintest" />  -->
+		<!-- <class name="com.SeleniumTestFramwork.testCases.TC2_LoginDD" /> -->
+		<class name="com.SeleniumTestFramwork.testCases.TC3_AddCustomer" />
+
+		</classes>
+
+	</test>
+
+</suite>
+	
